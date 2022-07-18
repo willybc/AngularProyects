@@ -12,7 +12,6 @@ export class UiService {
   constructor() { }
 
   toggleAddTask():void{
-    console.log("toggleAddTask")
     this.showAddTask = !this.showAddTask;
     this.subjet.next(this.showAddTask);
   }
