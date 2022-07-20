@@ -13,10 +13,10 @@
       "id": 2
     },
     {
-      "text": "Buy Eggs",
+      "text": "Buy eggs",
       "day": "Tomorrow",
-      "reminder": true,
-      "id": 4
+      "reminder": false,
+      "id": 3
     }
   ]
 }
