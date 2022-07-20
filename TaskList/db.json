@@ -1,10 +1,22 @@
 {
   "tasks": [
     {
-      "text": "Comprar huevos",
-      "day": "ma;ana",
+      "text": "Study Angular",
+      "day": "Tomorrow",
       "reminder": true,
       "id": 1
+    },
+    {
+      "text": "Study Python",
+      "day": "Tomorrow",
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "text": "Buy Eggs",
+      "day": "Tomorrow",
+      "reminder": true,
+      "id": 4
     }
   ]
 }

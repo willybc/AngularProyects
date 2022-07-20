@@ -2,49 +2,137 @@ $primary-color: #cf0
 $secondary-color: #24F7B8 
 $raleway: 'Raleway', sans-serif
 
+$danger-primary-color: #ff416c
+$danger-secondary-color: #ff4b2b
+
 *
     box-sizing: border-box
     margin: 0
     padding: 0
 
 body
-    font-family: 'Raleway'
-    //background-color: $primary-color
+    font-family: $raleway
+
+.site
+    
+    position: relative
+    min-height: 100vh
+    padding: 2rem
+    display: grid
+    place-items: center
+    background: linear-gradient(to right, #2193b0, #6dd5ed)
 
 
-.container
-    max-width: 500px
+.phone
+    position: absolute
+    --black5: #404040
+    --black4: #505050
+    z-index: 1
+    
+    min-width: 450px
+    min-height: 95% 
+
     margin: 30px auto
-    overflow: auto
-    min-height: 300px
-    border: 9px solid black
-    padding: 30px
-    border-radius: 20px
+    height: 24rem
+    padding: 0 0.5rem
+    border: 0.25rem solid var(--black5)
+    border-radius: 1rem
+    display:flex
+    flex-direction: column
+    background-color: #eaeaea
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.3)
+    transition: all 0.3s
 
+header
+    display: flex
+    justify-content: space-evenly
+    align-items: center
+    margin-bottom: 20px
+    
+    
+.phone_screen
+    overflow: auto
+    height: 84%
+    margin: 30px 12px auto
+    padding: 15px
+    background-color: white
+
+
+
+.phone_mic 
+  height: 0.25rem
+  width: 4rem
+  margin: 1rem auto
+  border-radius: 999rem
+  background-color: var(--black4)
+
+
+.phone_button 
+  width: 1.5rem
+  height: 1.5rem
+  border: 2px solid var(--black4)
+  border-radius: 50%
+  margin: 1rem auto
 
 .btn 
     display: inline-block
+    font-family: inherit
     background: #000
     color: #fff
     border: none
-    padding: 10px 20px
     margin: 5px
-    border-radius: 5px
     cursor: pointer
     text-decoration: none
-    font-size: 15px
-    font-family: inherit
+    padding: 16px 32px
+    font-size: 24px
+    font-weight: 700
+    //background: transparent
+    border-radius: 20px
+    text-transform: uppercase
+
+
+.gradient
+    border: 0
+    background-image: linear-gradient(to top right, #11998e, #38ef7d)
+    
+
+.gradient:hover
+    cursor: pointer
+    transform: translateY(-3px)
+    outline: 0
+    
 
 .btn:focus 
     outline: none
 
 .btn:active 
-    transform: scale(0.98)
+    transform: translateY(3px)
 
 .btn-block 
     display: block
     width: 100%
 
+.link-gradient
+    font-size: 32px
+    margin-left: 16px
+    text-decoration: none
+    color: black
+    position: relative
+
+.link-gradient:after
+    content: ''
+    height: 2px
+    position: absolute
+    bottom: -2px
+    left: 0
+    right: 0
+    background-image: linear-gradient(to top right, $secondary-color, $primary-color)
+
+.link-gradient:hover
+    background-image: linear-gradient(to top right, $secondary-color, $primary-color)
+    -webkit-background-clip: text
+    background-clip: text
+    -webkit-text-fill-color: transparent
 
 .form-control 
     margin: 20px 0
@@ -75,3 +163,4 @@ body
 .form-control-check input 
     flex: 2
     height: 20px
+

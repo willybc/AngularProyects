@@ -2,7 +2,8 @@
     <h1>{{title}}</h1>
 
     <app-button 
-        color="{{showAddTask ? 'red' : 'green'}} "
+        [ngStyle]="{'border': '0'}"
+        color="{{showAddTask ? '#ff416c' : '#1DC492' }} "
         text="{{showAddTask ? 'Close' : 'Add'}} " 
         (btnClick)="toggleAddTask()"
         *ngIf= "hasRoute('/')"

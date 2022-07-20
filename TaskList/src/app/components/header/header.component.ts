@@ -9,7 +9,7 @@ import { Router } from '@angular/router'
   styleUrls: ['./header.component.sass']
 })
 export class HeaderComponent implements OnInit {
-  title: String = 'Mi lista de Tareas';
+  title: String = 'List Task';
   showAddTask: boolean = false;
   subscription?: Subscription;
 
