@@ -41,11 +41,18 @@
         }
     ],
     "certificates": [{
-        "organization": "",
-        "title": "",
-        "start": "",
-        "end": "",
-        "url": ""
+        "title": "Argentina Programa #SeProgramar",
+        "organization": "INTI",
+        "start": "2022",
+        "end": "2022",
+        "url": "https://seprogramar.inti.gob.ar/inti/certificates/verify/Yc406DyF7LW1xAzP"
+        },
+        {
+            "title": "Aspectos basicos: Datos, datos, en todas partes",
+            "organization": "Coursera",
+            "start": "2022",
+            "end": "2022",
+            "url": "https://www.coursera.org/account/accomplishments/verify/U8RUHCNWAXWZ" 
         }
     ],
     "skills": [

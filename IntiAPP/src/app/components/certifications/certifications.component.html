@@ -9,7 +9,12 @@
     </div>
   
     <div>
-        <p id="text-acercade">bla bla bla</p>
+        <li *ngFor="let certificate of certificateList">
+            <p>{{certificate.title}}</p>
+            <p>{{certificate.organization}}</p>
+            <p><time>{{certificate.start}}</time> - <time>{{certificate.end}}</time></p>
+        </li>
+        
     </div>
   
 </div>
