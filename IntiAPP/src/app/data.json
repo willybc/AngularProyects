@@ -1,0 +1,19 @@
+{
+    "name": "Name",
+    "backImage": "",
+    "image": "",
+    "position": "",
+    "company": {
+        "name": "",
+        "img": "",
+        "url": ""
+    },
+    "school": {
+        "name": "Universidad Nacional de San Martin",
+        "img": "",
+        "url": "#"
+    },
+    "ubicacion": "Buenos Aires (Argentina)",
+    "about": "Programador Informatico"
+
+}
