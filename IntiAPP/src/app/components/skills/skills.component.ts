@@ -2,20 +2,19 @@ import { Component, OnInit } from '@angular/core';
 import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.sass']
+  selector: 'app-skills',
+  templateUrl: './skills.component.html',
+  styleUrls: ['./skills.component.sass']
 })
-export class HeaderComponent implements OnInit {
-  miPortfolio: any;
+export class SkillsComponent implements OnInit {
+  skillList: any;
 
   constructor(private datosPortfolio: PortfolioService) { }
 
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatos().subscribe(data => {
-      //Data Binding - Interpolacion
-      this.miPortfolio = data;
-    });
+      this.skillList = data.skills;
+    })
   }
 
 }

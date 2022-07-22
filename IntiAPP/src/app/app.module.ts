@@ -6,8 +6,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExperienceComponent } from './components/experience/experience.component';
-import { AptitudesComponent } from './components/aptitudes/aptitudes.component';
+import { CertificationsComponent } from './components/certifications/certifications.component';
 import { AchievementsComponent } from './components/achievements/achievements.component';
+import { PortfolioService } from './services/portfolio.service';
+import { HttpClientModule } from '@angular/common/http';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -15,14 +18,16 @@ import { AchievementsComponent } from './components/achievements/achievements.co
     HeaderComponent,
     AboutComponent,
     ExperienceComponent,
-    AptitudesComponent,
-    AchievementsComponent
+    CertificationsComponent,
+    AchievementsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PortfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

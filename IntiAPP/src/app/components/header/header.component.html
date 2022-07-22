@@ -1,11 +1,11 @@
 <div class="card mat-card" id="first-card">
     <div class="profile-background">
-        <img src="https://media-exp2.licdn.com/dms/image/C4D16AQFaVNT4GK9PgA/profile-displaybackgroundimage-shrink_200_800/0/1642642987000?e=1663200000&v=beta&t=0lw0cWQvIUiDeaWzVeVCctsMyootE7TSbSPbMR_1tXg" alt="">
+        <img [src]="miPortfolio.backImage" alt="">
     </div>
   
     <div class="info">
         <div class="profile-image">
-            <img src="https://avatars.githubusercontent.com/u/22482325?s=400&v=4" alt="">
+            <img [src]="miPortfolio.image" alt="">
             
             <a href="#" class="btn-edit">
                 <i class="fa fa-pen"></i>
@@ -15,10 +15,10 @@
   
         <div class="info-data">
             <div>
-                <h1>Nombre Apellido</h1>
-                <div id="info-company">Programador Informatico</div>
+                <h1>{{miPortfolio.name}}</h1>
+                <div id="info-company">{{miPortfolio.position}}</div>
                 <div id="info-contact">
-                    <span>Buenos Aires (Argentina)</span>
+                    <span>{{miPortfolio.ubicacion}}</span>
                     <p><a href="#">Informacion de contacto</a></p>
                 </div>
             </div>
