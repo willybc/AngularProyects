@@ -8,11 +8,24 @@
         </div>
     </div>
   
-    <div>
+    <div class="items-list">
         <li *ngFor="let certificate of certificateList">
-            <p>{{certificate.title}}</p>
-            <p>{{certificate.organization}}</p>
-            <p><time>{{certificate.start}}</time> - <time>{{certificate.end}}</time></p>
+            <div class="data-container">
+                <a [href]="certificate.url">
+                    <div class="logo-image-container">
+                        <img [src]="certificate.img" alt="" class="logo-image">
+                    </div>
+                    <div class="list-info">
+                        <div>
+                            <h5>{{certificate.title}}</h5>
+                            <div class="certificate-title">{{certificate.organization}}</div>
+                            <div class="certificate-info">
+                                <time>{{certificate.start}}</time> - <time>{{certificate.end}}</time>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </li>
         
     </div>

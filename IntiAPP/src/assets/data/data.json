@@ -1,6 +1,6 @@
 {
     "name": "Name LastName",
-    "backImage": "https://media-exp2.licdn.com/dms/image/C4D16AQFaVNT4GK9PgA/profile-displaybackgroundimage-shrink_200_800/0/1642642987000?e=1663200000&v=beta&t=0lw0cWQvIUiDeaWzVeVCctsMyootE7TSbSPbMR_1tXg",
+    "backImage": "https://media-exp1.licdn.com/dms/image/C4D16AQFaVNT4GK9PgA/profile-displaybackgroundimage-shrink_200_800/0/1642642987000?e=1663804800&v=beta&t=j0oTaIYsHkWijo3pmijusP91vmHKE4w_SeNRYJV_sls",
     "image": "https://avatars.githubusercontent.com/u/22482325?s=400&v=4",
     "position": "Programador Informatico",
     "company": {
@@ -14,35 +14,19 @@
         "url": "#"
     },
     "ubicacion": "Buenos Aires (Argentina)",
-    "about": "Programador Informatico bla bla bla",
-    "experience": [{
-        "position": "Design Graphic",
-        "company": "IBN SINA Dermatología",
-        "img": "",
-        "mode": "Jornada parcial",
-        "start": "dic 2021",
-        "end": "feb 2022",
-        "timeElapsed": "3 meses"
-        }
-    ],
+    "about": "Estudiante en programación informatica bla bla bla",
     "education": [{
         "school": "UNSAM",
         "title": "Tecnicatura en Programacion Informatica",
-        "img": "",
+        "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQHH36E9p76k0w/company-logo_200_200/0/1649095829227?e=1666828800&v=beta&t=l3SNpqsL_cSx6tjd5qAwtPaf7STh63378kpr4xcdA8s",
         "start": "2019",
         "end": "2023"
-        },
-        {
-        "school": "Platzi",
-        "title": "Frontend Professional",
-        "img": "",
-        "start": "2017",
-        "end": "2017"
         }
     ],
     "certificates": [{
         "title": "Argentina Programa #SeProgramar",
         "organization": "INTI",
+        "img": "https://media-exp1.licdn.com/dms/image/C560BAQFA8I9qwkoaGQ/company-logo_100_100/0/1641321130485?e=1666828800&v=beta&t=QOQ_tGhi58J9VuZyd_6pI1o-e8e2OEftfXwURZLY70c",
         "start": "2022",
         "end": "2022",
         "url": "https://seprogramar.inti.gob.ar/inti/certificates/verify/Yc406DyF7LW1xAzP"
@@ -50,9 +34,18 @@
         {
             "title": "Aspectos basicos: Datos, datos, en todas partes",
             "organization": "Coursera",
+            "img":"https://media-exp1.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_100_100/0/1608039227697?e=1666828800&v=beta&t=-cK-5ZrylYONy5ZNyMwdJ800uLkV4p-PWum4ueff6C0",
             "start": "2022",
             "end": "2022",
             "url": "https://www.coursera.org/account/accomplishments/verify/U8RUHCNWAXWZ" 
+        },
+        {
+        "organization": "Platzi",
+        "title": "Frontend Professional",
+        "img": "https://media-exp1.licdn.com/dms/image/C560BAQHGhmUtkni2GQ/company-logo_100_100/0/1622072579516?e=1666828800&v=beta&t=gtL-fQRw3M1PqgkFJoKkMCH3BXfxop2dryFGfsWrlPU",
+        "start": "2017",
+        "end": "2017",
+        "url": "https://platzi.com/@willybardales"
         }
     ],
     "skills": [
@@ -60,7 +53,10 @@
             "name": "Programacion en Python"
         },
         {
-            "name": "Progrmacion en C"
+            "name": "Programacion en C"
+        },
+        {
+            "name": "Desarrollo Web"
         },
         {
             "name": "Photoshop"

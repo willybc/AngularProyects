@@ -1,6 +1,6 @@
 <div class="card mat-card">
     <div class="card-titles">
-        <h2>Educacion</h2>
+        <h2>Educación</h2>
         <div class="btn-edit" onclick="cambiar_parrafo()">
             <a href="#" class="btn-right">
                 <i class="fa fa-pen"></i>
@@ -15,11 +15,14 @@
                     <div class="logo-image-container">
                         <img [src]="education.img" alt="" class="logo-image">
                     </div>
-                    <div class="lis-info">
+                    <div class="list-info">
                         <div>
-                            <h3>{{education.school}}</h3>
-                            <p>{{education.title}}</p>
-                            <p><time>{{education.start}}</time> - <time>{{education.end}}</time></p>
+                            <h4>{{education.school}}</h4>
+                            <div class="education-title">{{education.title}}</div>
+                            <div class="education-info">
+                                <time>{{education.start}}</time> - <time>{{education.end}}</time>
+                            </div>
+                            
                         </div>
                     </div>
                 </a>
